@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fredoka:wght@300;400;500&family=Smooch+Sans:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+svg {
+  background-color: pink;
+}
+
+.dot {
+  position: absolute;
+  z-index: 100;
+}
+
+#tooltip {
+  background-color: rgb(232, 235, 232);
+  padding: 0.3rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  font-family: "wticons";
+  border: 0.3px solid black;
+  box-shadow: 3px 3px 3px black;
+}
+
+#yLabel {
+  position: absolute;
+  z-index: 4;
+  transform: rotate(-90deg);
+  left: -40px;
+  top: 50px;
+  white-space: pre;
+}
+
+#undoped,
+#doped {
+  width: 20px;
+  height: 20px;
+}
+
+#undoped {
+  background-color: #f77f00;
+}
+
+#doped {
+  background-color: #219ebc;
+}
+
+.dopeText {
+  text-justify: center;
+  vertical-align: center;
+}
+
+.narcots {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.wrapperContainer {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  place-content: center;
+}
+.wrapperContainer .mainContainer {
+  width: 100rem;
+  height: 60rem;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr 90%;
+}
+.wrapperContainer .mainContainer div h1,
+.wrapperContainer .mainContainer div h3 {
+  text-align: center;
+}
+.wrapperContainer .mainContainer div h1 {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 4rem;
+}
+.wrapperContainer .mainContainer div h3 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */
